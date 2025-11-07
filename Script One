@@ -1,0 +1,4 @@
+# Simple math script
+num1 = 10       # integer variable
+num2 = 2.5      # float variable
+result = num1 + num2   # add numbers using assignment operator
