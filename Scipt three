@@ -1,0 +1,5 @@
+# Check if number is greater than 5
+number = 7
+is_greater = number > 5      # boolean result
+
+print("Is the number greater than 5?", is_greater)
