@@ -1,0 +1,23 @@
+# Budget Checker Program
+# This program helps users know if they can afford an item
+
+# Using input(), print(), variables, and basic data types
+balance = float(input("Enter your account balance: "))   # float data type for decimals
+item_price = float(input("Enter the price of the item: "))
+
+# Using arithmetic and comparison operators
+remaining = balance - item_price
+
+# Flow control with if, elif, else
+if balance > item_price:
+    print("You can afford this item!")
+    print("You will have", remaining, "left in your account.")
+elif balance == item_price:
+    print("You can buy the item, but your balance will be $0.00.")
+else:
+    print("You cannot afford this item.")
+    print("You need", abs(remaining), "more dollars.")
+
+# Using boolean values and operators
+can_afford = balance >= item_price  # Boolean variable
+print("Can afford item:", can_afford)
